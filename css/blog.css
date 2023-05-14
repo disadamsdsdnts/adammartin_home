@@ -1,0 +1,413 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  padding-top: 2%;
+  background: #9fa9a3;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.menu-fondo {
+  background-color: #b20c94;
+  color: black;
+}
+
+/* Color del título */
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+/* Color de los menús */
+.navbar-default .navbar-nav > li > a {
+  color: #000012;
+}
+
+/* Color de los menús seleccionados */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #ffffff;
+}
+
+/* Borde del botón */
+.navbar-default .navbar-toggle {
+  border-color: #000000;
+}
+
+/* Utilizo este código en vez del de Bootstrap porque
+    el de BS tiene el display: block y no deja centrar las imágenes*/
+.imagen-responsiva {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen-semitrans {
+  opacity: 0.7;
+}
+
+.escondido {
+  display: none;
+}
+
+div.disco-musica {
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.disco-musica-cajeta {
+  padding: 50px;
+}
+
+.texto-responsivo {
+  font-size: 100%;
+}
+
+.open {
+  color: black;
+  font-style: bold;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #232323;
+}
+
+.sombreado {
+  -webkit-filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.5));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=2, OffY=2, Color='#444')";
+}
+
+.footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+.cabecera {
+  background-image: url("../img/bground/heyyou.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/heyyou.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cabecera-sombra {
+  text-shadow: 3px 3px 3px #b20c94;
+}
+
+.dropdown-menu > li > a.btn-wrap {
+  white-space: normal;
+}
+
+.hide-bullets {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  height: 100%;
+}
+
+.carousel-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vcontainer {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.div-japon {
+  background-image: url("../img/bground/japan.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/japan.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-inlove {
+  background-image: url("../img/bground/inlove.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/inlove.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-dougie {
+  background-image: url("../img/bground/dougie.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/dougie.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-zahara {
+  background-image: url("../img/bground/zahara.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/zahara.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-izal {
+  background-image: url("../img/bground/izal.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/izal.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-mcfly {
+  background-image: url("../img/bground/mcfly.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/mcfly.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-vetusta {
+  background-image: url("../img/bground/vetustamorla.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/vetustamorla.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-ghibli {
+  background-image: url("../img/bground/studioghibli.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/studioghibli.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-rmstitanic {
+  background-image: url("../img/bground/rmstitanic.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/rmstitanic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-oneday {
+  background-image: url("../img/bground/oneday.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/oneday.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-titanic_film {
+  background-image: url("../img/bground/titanic_film.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/titanic_film.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-steinsgate {
+  background-image: url("../img/bground/steinsgate.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/steinsgate.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-marmaladeboy {
+  background-image: url("../img/bground/marmaladeboy.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/marmaladeboy.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-spiritedaway {
+  background-image: url("../img/bground/spiritedaway.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    url("../img/bground/spiritedaway.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sombreado-claro {
+  text-shadow: 3px 3px 3px #ffffff;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.imagen-menu {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.c-cards h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.c-cards__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 24px;
+}
+
+.c-cards__item {
+  color: black;
+  margin-bottom: 6rem;
+
+  flex: 1 1 0px;
+}
+
+.c-cards__item-desc {
+  color: #333;
+}
+
+.c-cards__item:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.c-cards__item:hover .c-cards__item-footer {
+  text-decoration: underline;
+}
+
+.c-cards__item-image {
+  max-width: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.c-cards__item:hover .c-cards__item-image {
+  transform: scale(1.05);
+}
