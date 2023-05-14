@@ -7,4 +7,4 @@ Pues fue un proyecto que comencé en 2016 cuando empecé a estudiar desarrollo w
 Me enfoqué en hacer otros proyectos y, como no me gustaría perder el secreto que hay ni el diseño tan “novato”, lo dejaremos aquí hasta que algún día tome un respiro.
 
 ## ¿Quieres verlo en marcha?
-Puedes hacerlo desde Github Pages o desde la url original.
+Puedes hacerlo desde [Github Pages](https://disadamsdsdnts.github.io/adammartin_home/) o desde la [url original](https://adammartin.es/).
